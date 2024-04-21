@@ -11,6 +11,13 @@ const VideoPage = () => {
         />
         Your browser does not support the video tag.
       </video>
+      <iframe
+        src="https://drive.google.com/file/d/10vApuo7xV2M9c5m47mJ3osL5zAMCegqh/preview"
+        width="560"
+        height="315"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
 
       <video controls width="560" height="315">
         <source src="/videos/vid3.mp4" type="video/mp4" />

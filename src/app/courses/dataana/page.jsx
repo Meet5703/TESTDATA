@@ -4,10 +4,20 @@ const VideoPage = () => {
   return (
     <div>
       <h1>Videos</h1>
-      <video controls>
-        <source src="/public/videos/vid1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <iframe
+        src="/public/videos/vid1.mp4"
+        title="Video Player"
+        width="560"
+        height="315"
+        allowFullScreen
+      ></iframe>
+      <iframe
+        src="/public/videos/vid3.mp4"
+        title="Video Player"
+        width="560"
+        height="315"
+        allowFullScreen
+      ></iframe>
     </div>
   );
 };

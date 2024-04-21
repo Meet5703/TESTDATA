@@ -9,6 +9,14 @@ const VideoPage = () => {
         <source src="/videos/vid3.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <video controls controlsList="nodownload" width="640" height="360">
+        <source src="/videos/vid2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <video controls controlsList="nodownload" width="640" height="360">
+        <source src="/videos/vid1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   );
 };
